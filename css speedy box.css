@@ -1,0 +1,35 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #01526b;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.content {
+    margin-top: 70px; 
+    padding: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+.img1 {
+    width: 300px;
+    height: auto;
+    border-radius: 10px; 
+}
+.text-conteiner {
+    display: flex;
+    justify-content: center; 
+    gap: 150px;
+}
+.text1{
+    size: 5em;
+}
+.text-conteiner2{
+    display: flex;
+    justify-content: center; 
+    gap: 150px;
+}
