@@ -6,6 +6,17 @@
     padding: 15px 20px;
     text-align: center;
 }
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px 0;
+    animation: fadeInDown 1s ease-out;
+}
 .content {
     margin-top: 70px; 
     padding: 20px;
@@ -23,13 +34,203 @@
 .text-conteiner {
     display: flex;
     justify-content: center; 
-    gap: 150px;
-}
-.text1{
-    size: 5em;
+    gap: 130px;
+    font-size: 20px;
 }
 .text-conteiner2{
     display: flex;
     justify-content: center; 
     gap: 150px;
 }
+.image-container3 {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+.button2{
+    width: 700px;
+    height: 305px; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 2px solid #ccc; /* Сіра рамка */
+      border-radius: 10px; /* Згладжені кути */
+  }
+  .button2:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6); 
+    background-color:rgba(0, 255, 0, 0.6) ;
+    border: 2px solid #ccc; /* Сіра рамка */
+      border-radius: 10px; /* Згладжені кути */
+  }
+.fancy-button {
+    display: flex;                 
+    justify-content: center;        
+    align-items: center;           
+    width: 160px;
+    height: 100px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    padding: 0;             
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;             
+}
+
+.fancy-button img {
+    max-width: 90%;             
+    max-height: 90%;
+    object-fit: contain;          
+}
+  
+  .fancy-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .fancy-button:active {
+    transform: scale(0.96);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  .contact-section {
+    text-align: center;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .instagram {
+    background: #e4405f;
+  }
+  
+  .telegram {
+    background: #0088cc;
+  }
+  
+  .facebook {
+    background: #3b5998;
+  }
+  
+  .social-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .support-button .support-link {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: 0.3s;
+  }
+  
+  .support-button .support-link:hover {
+    background: #0056b3;
+  }
+  
+  .support-button p {
+    margin-top: 10px;
+    color: #333;
+  }
+  .slider-container {
+    display:flex ;
+    align-items: center;
+    position: relative; /* Для позиціонування кнопок */
+    width: 700px; /* Ширина видимої області */
+    height: 300px; /* Висота видимої області */
+    overflow: hidden; /* Приховуємо все за межами контейнера */
+    border: 2px solid #ccc; /* Сіра рамка */
+    border-radius: 10px; /* Згладжені кути */
+    margin-left:35%;
+    margin-top: 20px;
+  }
+  
+  /* Слайдер з зображеннями */
+  .slider {
+    display: flex; /* Розташовуємо зображення в рядок */
+    transition: transform 0.5s ease-in-out; /* Плавна анімація зміщення */
+  }
+  
+  /* Зображення в слайдері */
+  .slider img {
+    width: 700px; /* Ширина зображення відповідає контейнеру */
+    height: 300px; /* Висота зображення відповідає контейнеру */
+    object-fit: cover; /* Вписуємо зображення в контейнер, зберігаючи пропорції */
+  }
+  
+  /* Загальний стиль для кнопок */
+  #prev-btn {
+    position: absolute; /* Для розташування біля контейнера */
+    top: 35%; /* Центруємо по вертикалі */
+    transform: translateY(-50%); /* Вирівнюємо по центру */
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    color: white; /* Білий текст */
+    border: none; /* Забираємо стандартні стилі кнопки */
+    padding: 10px; /* Відступи всередині кнопки */
+    cursor: pointer; /* Курсор у вигляді руки */
+    border-radius: 50%; /* Кругла форма кнопки */
+    z-index: 10; /* Зробити кнопки видимими поверх зображень */
+  }
+  #next-btn {
+    position: absolute; /* Для розташування біля контейнера */
+    top: 35%; /* Центруємо по вертикалі */
+    transform: translateY(-50%); /* Вирівнюємо по центру */
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    color: white; /* Білий текст */
+    border: none; /* Забираємо стандартні стилі кнопки */
+    padding: 10px; /* Відступи всередині кнопки */
+    cursor: pointer; /* Курсор у вигляді руки */
+    border-radius: 50%; /* Кругла форма кнопки */
+    z-index: 10; /* Зробити кнопки видимими поверх зображень */
+  }
+  /* Кнопка для перемикання назад */
+  #prev-btn {
+    left: 60em; /* Розташована ліворуч за межами контейнера */
+  }
+  
+  /* Кнопка для перемикання вперед */
+  #next-btn {
+    right: 60em; /* Розташована праворуч за межами контейнера */
+  }
+  
+  /* Стиль кнопки при наведенні */
+  #prev-btn:hover {
+    background-color: black; /* Повністю чорний фон */
+  }
+  #next-btn:hover {
+    background-color: black; /* Повністю чорний фон */
+  }
+  .imagee{
+    width: 700px; /* Ширина зображення відповідає контейнеру */
+    height: 300px; /* Висота зображення відповідає контейнеру */
+    object-fit: cover; /* Вписуємо зображення в контейнер, зберігаючи пропорції */
+  }
