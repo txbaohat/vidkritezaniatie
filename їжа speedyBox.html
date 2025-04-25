@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css speedy box.css">
+    <title>Їжа</title>
+</head>
+<body>
+<header style="background-color: #01526b;">
+    <div>
+     <a href="SpeedyBox.html" ><button class="pover-button" >Назад</button></a>
+    <h2 style="text-align: center;">Заповніть дані доставки</h2>
+</div>
+<form  id="deliveryForm" action="#" method="post" class="delivery-form">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">Ім'я:</label>
+        <input type="text" id="fname" name="fname">
+        
+        <label for="lname">Призвіще:</label>
+        <input type="text" id="lname" name="lname">
+
+        <label for="telefon">Номер телефону:</label>
+        <input type="text" id="telefon" name="telefon">
+         
+        <label for="City">Місто де проживаєте:</label>
+        <select name="City" style="width: 100px;text-align: center;">
+            <option value="dn">Дніпро</option>
+            <option value="pa">Павлоград</option>
+            <option value="kry">Кривий Ріг</option>
+            <option value="po">Полтава</option>
+            <option value="kre">Кременчук</option>
+            <option value="za">Запоріжжя</option>
+            <option value="kh">Харків</option>
+            <option value="my">Миколаїв</option>
+            <option value="od">Одесса</option>
+            <option value="kro">Кропивницький</option>
+            <option value="ch">Черкаси</option>
+            <option value="su">Суми</option>
+            <option value="ky">Київ</option>
+            <option value="che">Чернігів</option>
+            <option value="vi">Вінниця</option>
+            <option value="lv">Львів</option>
+        </select>
+     </fieldset>
+     <button type="button" id="clearBtn" onclick="showMessage1()">Submit</button>
+</form>
+</header>
+<main>
+    <h1 style="text-align: center;">Оберіть потрібний заклад</h1>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+    <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://cdn-icons-png.flaticon.com/512/732/732217.png"></button></a> 
+    <button class="fancy-button"  disabled onclick="showMessage2()"> <img  src="https://upload.wikimedia.org/wikipedia/ru/7/7d/KFC_logo_2024.svg"></button></a>
+    <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/uk/thumb/5/54/Logo_%D0%90%D0%A2%D0%91.svg/1200px-Logo_%D0%90%D0%A2%D0%91.svg.png"></button></a> 
+    <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://dnipro.karavan.com.ua/wp-content/uploads/2021/11/pici-dei.png"></button></a> 
+    </div>
+    <div class="text-conteiner3" style="gap: 130px;">
+        <p class="text1"><b>Mcdonalds</b></p>
+        <p class="text1"><b>KFC</b></p>
+        <p class="text1"><b>ATБ</b></p>
+        <p class="text1"><b>Pizza day</b></p>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/uk/thumb/e/e3/%D0%9F%D1%83%D0%B7%D0%B0%D1%82%D0%B0_%D1%85%D0%B0%D1%82%D0%B0.svg/250px-%D0%9F%D1%83%D0%B7%D0%B0%D1%82%D0%B0_%D1%85%D0%B0%D1%82%D0%B0.svg.png"></button></a> 
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXU-MQ5rqHJq0vgHBourqfAiOcRCti9YXvx3hY1r1BduEoF1TjCuVpUImh_HbxbR-cTEI&usqp=CAU"></button></a>
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2048px-Dominos_pizza_logo.svg.png"></button></a> 
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://admin.sun.agency/img/client/36_134101.svg"></button></a> 
+    </div>
+    <div class="text-conteiner3" style="gap: 95px;">
+        <p class="text1"><b>Пузата хата</b></p>
+        <p class="text1"><b>Булочник</b></p>
+        <p class="text1"><b>Dominos Pizza</b></p>
+        <p class="text1"><b>Varus</b></p>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 20px;">
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%D0%95%D0%9A%D0%9E_%D0%9C%D0%90%D0%A0%D0%9A%D0%95%D0%A2.svg/1200px-%D0%95%D0%9A%D0%9E_%D0%9C%D0%90%D0%A0%D0%9A%D0%95%D0%A2.svg.png"></button></a> 
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://roll-club.ua/wp-content/themes/rollclub/assets/images/logo-rollclub.jpg"></button></a>
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Logo_METRO.svg/1280px-Logo_METRO.svg.png"></button></a> 
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://cdn.freebiesupply.com/logos/thumbs/2x/starbucks-coffee-logo.png"></button></a> 
+    </div>
+    <div class="text-conteiner3" style="gap: 110px;">
+        <p class="text1"><b>Eco-market</b></p>
+        <p class="text1"><b>Roll Club</b></p>
+        <p class="text1"><b>METRO</b></p>
+        <p class="text1"><b>STARBUCKS</b></p>
+    </div>
+</main>
+    <footer style="background-color:#01526b;margin-top: 20px;">
+        <div class="contact-section">
+            <h2>Ми в соцмережах</h2>
+            <div class="social-buttons">
+              <a href="https://www.instagram.com" target="_blank" class="social-btn instagram">Instagram</a>
+              <a href="https://t.me/yourchannel" target="_blank" class="social-btn telegram">Telegram</a>
+              <a href="https://www.facebook.com" target="_blank" class="social-btn facebook">Facebook</a>
+            </div>
+            <div class="support-button">
+              <a href="mailto:support@speedybox.ua" class="support-link">✉️ Напишіть нам</a>
+              <p style="color: white;">Або телефонуйте: <strong>+380 99 123 45 67</strong> — підтримка 24/7</p>
+            </div>
+          </div>
+        </footer>
+        <script>
+            function showMessage1() {
+      alert("Інформація прийнята");
+    }
+    function showMessage2() {
+      alert("Дякуємо за замовлення");
+    }
+    const form = document.getElementById('deliveryForm');
+const submitBtn = document.getElementById('clearBtn');
+
+submitBtn.disabled = true;
+
+form.addEventListener('input', () => {
+  submitBtn.disabled = !form.checkValidity();
+});
+
+submitBtn.addEventListener('click', e => {
+  e.preventDefault();
+  if (!form.checkValidity()) return;
+  form.reset();
+  submitBtn.disabled = true;
+  document.querySelectorAll('.fancy-button').forEach(btn => btn.disabled = false);
+});
+      
+         </script>
+</body>
+</html>

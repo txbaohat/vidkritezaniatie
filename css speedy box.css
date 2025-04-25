@@ -1,3 +1,14 @@
+.page-wrapper {
+  flex: 1;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #CCCC00;
+}
 .header {
     position: sticky;
     top: 0;
@@ -15,7 +26,10 @@ header h1 {
     letter-spacing: 2px;
     margin: 0;
     padding: 10px 0;
-    animation: fadeInDown 1s ease-out;
+}
+main {
+  flex: 1;
+  padding: 20px;
 }
 .content {
     margin-top: 70px; 
@@ -41,6 +55,10 @@ header h1 {
     display: flex;
     justify-content: center; 
     gap: 150px;
+}
+.text-conteiner3{
+  display: flex;
+  justify-content: center; 
 }
 .image-container3 {
     display: flex;
@@ -78,7 +96,19 @@ header h1 {
     cursor: pointer;
     overflow: hidden;             
 }
-
+.pover-button{
+  width: 120px;
+  height: 70px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  border: none;
+  padding: 0;             
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;             
+}
 .fancy-button img {
     max-width: 90%;             
     max-height: 90%;
