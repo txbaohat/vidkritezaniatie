@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css speedy box.css">
+    <title>Їжа</title>
+</head>
+<body>
+<header style="background-color: #01526b;">
+    <div>
+     <a href="SpeedyBox.html" ><button class="pover-button" >Назад</button></a>
+    <h2 style="text-align: center;">Заповніть дані доставки</h2>
+</div>
+<form  id="deliveryForm" action="#" method="post" class="delivery-form">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">Ім'я:</label>
+        <input type="text" id="fname" name="fname">
+        
+        <label for="lname">Призвіще:</label>
+        <input type="text" id="lname" name="lname">
+
+        <label for="telefon">Номер телефону:</label>
+        <input type="number" id="telefon" name="telefon">
+         
+        <label for="City">Місто де проживаєте:</label>
+        <select name="City" style="width: 100px;text-align: center;">
+            <option value="dn">Дніпро</option>
+            <option value="pa">Павлоград</option>
+            <option value="kry">Кривий Ріг</option>
+            <option value="po">Полтава</option>
+            <option value="kre">Кременчук</option>
+            <option value="za">Запоріжжя</option>
+            <option value="kh">Харків</option>
+            <option value="my">Миколаїв</option>
+            <option value="od">Одесса</option>
+            <option value="kro">Кропивницький</option>
+            <option value="ch">Черкаси</option>
+            <option value="su">Суми</option>
+            <option value="ky">Київ</option>
+            <option value="che">Чернігів</option>
+            <option value="vi">Вінниця</option>
+            <option value="lv">Львів</option>
+        </select>
+        <label for="vylica">Вулиця проживання:</label>
+        <input type="text" id="vylica" name="vylica">
+        <label for="bud">Номер будинку та квартири:</label>
+        <input type="number" id="bud" name="bud">
+     </fieldset>
+     <button type="button" id="clearBtn" onclick="showMessage1()">Submit</button>
+</form>
+</header>
+<main>
+    <h1 style="text-align: center;">Оберіть потрібний заклад</h1>
+    <div style="display: flex; justify-content: center; gap: 97px;">
+    <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg8nO_8vHRO611Lk2tQBTt5OlT02mnHZqaBw&s"></button></a> 
+    <button class="fancy-button"  disabled onclick="showMessage2()"> <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Eva_logo.svg/800px-Eva_logo.svg.png"></button></a>
+    <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/PROSTOR_logo.svg/2560px-PROSTOR_logo.svg.png"></button></a> 
+    <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy1rSoqhD_o0d6wLY-0RbX8vfzhfjknFSxyuSInH4thAUcUiIiiF3CxHzfR_6oGBJfPG8&usqp=CAU"></button></a> 
+    </div>
+    <div class="text-conteiner3" style="gap: 20px;margin-left: 78px;">
+        <p class="text1"><b>SOLO -<br>магазини, що спеціалізуються<br> на професійній косметиці. У нас<br> є понад 1000 одиниць косметики</b></p>
+        <p class="text1"><b>EVA -<br>магазин, у якому є все Косме<br>тика, Догляд, Парфумерія, Здоро<br>в'я, Діти та ще 200 000 товарів.</b></p>
+        <p class="text1"><b>Prostor -<br>Великий асортимент косметики,<br> парфумерії та побутової хімії<br> ✓ Акції, знижки, розпродажі</b></p>
+        <p class="text1"><b>Wartons  -<br>Інтернет-магазин косметики і<br> товарів для здоров'я, з ве<br>ликим асортиментом товарів</b></p>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 97px;">
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://lh3.googleusercontent.com/proxy/UaWU6EwdnMYVPdyR5hharVYcWFxkUSZ1qIxvf97UEpz_toZZlzkszA8zMt0nLL8IjEmvueneweCzmRmGyxFj4dIaaJJyCLPqQmRI74qu"></button></a> 
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgWb9zWo-Ug5pZlzYt6WefrAfodhpeN6nrBAMUOV4g8X4i_y5TpNkzV3v9nCKalFeDubY&usqp=CAU"></button></a>
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://cosmetea.com.ua/image/catalog/logo/cosmeteanew.png"></button></a> 
+       <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxV3RyiEZ3p1f3xlYfhv5FGLqzPd7cE9OJg&s"></button></a> 
+    </div>
+    <div class="text-conteiner3" style="gap: 15px;margin-left: 110px;">
+        <p class="text1"><b>Beauty prof-<br> ви знайдете широкий асортимент<br> професійної косметичної продукції,<br> матеріалів та обладнання.</b></p>
+        <p class="text1"><b>Prokrasa-<br>магазин професійної косметики<br> та перукарських інструментів<br>,з великим вибіром.</b></p>
+        <p class="text1"><b>Cosmetea- <br>Інтернет-магазин корейської<br> косметики Сosmetea в Україні ❤<br> Купуйте найкращу косметику з Кореї</b></p>
+        <p class="text1"><b>Ulitka beauty-<br>інтернет-магазин, де є найкращі<br> продукти зі світу японської та <br>корейської краси та здоров'я.</b></p>
+    </div>
+</main>
+    <footer style="background-color:#01526b;margin-top: 100px;">
+        <div class="contact-section">
+            <h2>Ми в соцмережах</h2>
+            <div class="social-buttons">
+              <a href="https://www.instagram.com" target="_blank" class="social-btn instagram">Instagram</a>
+              <a href="https://t.me/yourchannel" target="_blank" class="social-btn telegram">Telegram</a>
+              <a href="https://www.facebook.com" target="_blank" class="social-btn facebook">Facebook</a>
+            </div>
+            <div class="support-button">
+              <a href="mailto:support@speedybox.ua" class="support-link">✉️ Напишіть нам</a>
+              <p style="color: white;">Або телефонуйте: <strong>+380 99 123 45 67</strong> — підтримка 24/7</p>
+            </div>
+          </div>
+        </footer>
+        <script>
+            function showMessage1() {
+      alert("Інформація прийнята");
+    }
+    function showMessage2() {
+      alert("Дякуємо за замовлення");
+    }
+    const form = document.getElementById('deliveryForm');
+const submitBtn = document.getElementById('clearBtn');
+
+submitBtn.disabled = true;
+
+form.addEventListener('input', () => {
+  submitBtn.disabled = !form.checkValidity();
+});
+
+submitBtn.addEventListener('click', e => {
+  e.preventDefault();
+  if (!form.checkValidity()) return;
+  form.reset();
+  submitBtn.disabled = true;
+  document.querySelectorAll('.fancy-button').forEach(btn => btn.disabled = false);
+});
+      
+         </script>
+</body>
+</html>

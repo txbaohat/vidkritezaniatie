@@ -22,7 +22,7 @@
         <input type="text" id="lname" name="lname">
 
         <label for="telefon">Номер телефону:</label>
-        <input type="text" id="telefon" name="telefon">
+        <input type="number" id="telefon" name="telefon">
          
         <label for="City">Місто де проживаєте:</label>
         <select name="City" style="width: 100px;text-align: center;">
@@ -43,6 +43,10 @@
             <option value="vi">Вінниця</option>
             <option value="lv">Львів</option>
         </select>
+        <label for="vylica">Вулиця проживання:</label>
+        <input type="text" id="vylica" name="vylica">
+        <label for="bud">Номер будинку та квартири:</label>
+        <input type="number" id="bud" name="bud">
      </fieldset>
      <button type="button" id="clearBtn" onclick="showMessage1()">Submit</button>
 </form>
@@ -55,11 +59,11 @@
     <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/uk/thumb/5/54/Logo_%D0%90%D0%A2%D0%91.svg/1200px-Logo_%D0%90%D0%A2%D0%91.svg.png"></button></a> 
     <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://dnipro.karavan.com.ua/wp-content/uploads/2021/11/pici-dei.png"></button></a> 
     </div>
-    <div class="text-conteiner3" style="gap: 130px;">
-        <p class="text1"><b>Mcdonalds</b></p>
-        <p class="text1"><b>KFC</b></p>
-        <p class="text1"><b>ATБ</b></p>
-        <p class="text1"><b>Pizza day</b></p>
+    <div class="text-conteiner3" style="gap: 20px;margin-left: 65px;">
+        <p class="text1"><b>Mcdonalds -<br> мережа закладів<br> швидкого харчування</b></p>
+        <p class="text1"><b>KFC -<br> мережа ресторанів<br> швидкого харчування </b></p>
+        <p class="text1"><b>ATБ -<br>найбільша українська<br> мережа супермаркетів</b></p>
+        <p class="text1"><b>Pizza day -<br>Мережа піцерій № 1 в Україні<br> 47 міст, 268 закладів за 7 років</b></p>
     </div>
     <div style="display: flex; justify-content: center; gap: 20px;">
        <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/uk/thumb/e/e3/%D0%9F%D1%83%D0%B7%D0%B0%D1%82%D0%B0_%D1%85%D0%B0%D1%82%D0%B0.svg/250px-%D0%9F%D1%83%D0%B7%D0%B0%D1%82%D0%B0_%D1%85%D0%B0%D1%82%D0%B0.svg.png"></button></a> 
@@ -67,11 +71,11 @@
        <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2048px-Dominos_pizza_logo.svg.png"></button></a> 
        <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://admin.sun.agency/img/client/36_134101.svg"></button></a> 
     </div>
-    <div class="text-conteiner3" style="gap: 95px;">
-        <p class="text1"><b>Пузата хата</b></p>
-        <p class="text1"><b>Булочник</b></p>
-        <p class="text1"><b>Dominos Pizza</b></p>
-        <p class="text1"><b>Varus</b></p>
+    <div class="text-conteiner3" style="gap: 20px;margin-left: 50px;">
+        <p class="text1"><b>Пузата хата-<br>національна мережа<br> ресторанів сучасної<br> української кухні</b></p>
+        <p class="text1"><b>Булочник-<br>топ мережа пекарень<br> з закладами по всій<br> україні</b></p>
+        <p class="text1"><b>Dominos Pizza- <br>міжнародна мережа піцерій;<br> Налічує більше 17000<br> закладів в 85 країнах.</b></p>
+        <p class="text1"><b>Varus-<br>українська мережа <br>супермаркетів, яка <br>заснована у 2003 році </b></p>
     </div>
     <div style="display: flex; justify-content: center; gap: 20px;">
        <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%D0%95%D0%9A%D0%9E_%D0%9C%D0%90%D0%A0%D0%9A%D0%95%D0%A2.svg/1200px-%D0%95%D0%9A%D0%9E_%D0%9C%D0%90%D0%A0%D0%9A%D0%95%D0%A2.svg.png"></button></a> 
@@ -79,11 +83,11 @@
        <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Logo_METRO.svg/1280px-Logo_METRO.svg.png"></button></a> 
        <button class="fancy-button"  disabled onclick="showMessage2()"><img  src="https://cdn.freebiesupply.com/logos/thumbs/2x/starbucks-coffee-logo.png"></button></a> 
     </div>
-    <div class="text-conteiner3" style="gap: 110px;">
-        <p class="text1"><b>Eco-market</b></p>
-        <p class="text1"><b>Roll Club</b></p>
-        <p class="text1"><b>METRO</b></p>
-        <p class="text1"><b>STARBUCKS</b></p>
+    <div class="text-conteiner3" style="gap: 10px;margin-left: 100px;">
+        <p class="text1"><b>Eco-market-<br> українська мережа<br> супермаркетів, що нара<br>ховує 114 торговельних <br>об'єктів у 14 регіонах.</b></p>
+        <p class="text1"><b>Roll Club-<br>це велика мережа<br> доставки їжі в Україні,<br> що завоювала довіру клі<br>єнтів у різних містах.</b></p>
+        <p class="text1"><b>METRO-<br>це провідна міжнародна <br>торговельна оптова компа<br>нія, що спеціалізується <br>на обслуговуванні</b></p>
+        <p class="text1"><b>STARBUCKS-<br> найбільша міжнародна<br> мережа кафе швидкого<br> обслуговування, Кав'ярні <br>розташовані у 55 країнах світу</b></p>
     </div>
 </main>
     <footer style="background-color:#01526b;margin-top: 20px;">
